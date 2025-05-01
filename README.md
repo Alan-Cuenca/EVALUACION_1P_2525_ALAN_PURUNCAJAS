@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [Universidad Tecnica de Ambato]  
+## Facultad de [Ingenieria en Software y TI]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Alan Puruncajas   
+**Fecha:** 30/04/2025 
 
 ---
 
@@ -36,10 +36,23 @@
   - ¿Cómo se realizó el clone del fork?
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
+
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+-La diferencia principal entre las 3 son las siguientes, git clone copia repositorios remotos de git hub a mi espacio de trabajo local
+-fork por otro lado es una funcion de git hub que sirve para copiar repositorios de otros usuarios a mi cuenta para que se puedan usar localmente
+-y por ultimo git pull trae los cambios efectuados en el repositorio remoto a mi espacio de trabajo local
 
+  - ¿Cómo se realizó el fork?
+  Se selecciono el boton de fork y se configuró nombre de mi copia del repositorio de evaluacion
+  ![alt text](image-1.png)
+  - ¿Cómo se realizó el clone del fork?
+  se uso el comando git clone https://github.com/Alan-Cuenca/EVALUACION_1P_2525_ALAN_PURUNCAJAS.git
+  ![alt text](image-2.png)
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+  Porque en cuando clono el repositorio lo hice desde mi repositorio personal
 ---
 
 ## Pregunta 2 (1 punto)
@@ -59,8 +72,10 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -88,6 +103,18 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+Comandos:
+
+git flow init
+
+git flow feature start ingresar-encabezado
+git add .
+git commit -m "Se agrego..."
+git flow feature finish ingrear-encabezado
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
@@ -121,7 +148,7 @@
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
-
+Un issue es una forma de reportar problemas o proponer mejoras, mientras que un pull request sirve para proponer cambios al código. Ambos se relacionan porque un pull request puede resolver un issue al implementar su solución.
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
